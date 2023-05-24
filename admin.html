@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html id="adminPage" lang="en">
+  <head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.min.css?_v=20230524233404" />
+  <title>adimn page</title>
+</head>
+
+  <body>
+    <header id="adminHeader" class="header admin-header">
+  <div class="admin-header__container">
+    <div class="admin-header__content">
+      <div class="admin-header__logo">Karamel</div>
+      <div class="admin-header__controls admin-header-controls">
+        <a
+          class="button save-changes-button button-thin admin-header-controls__save-button"
+          >Зберегти зміни</a
+        >
+      </div>
+    </div>
+  </div>
+</header>
+
+    <div class="wrapper admin-wrapper">
+      <div class="admin-login" id="admin-login-form">
+  <div class="admin-login-content">
+    <div class="admin-login__title">Увійдіть в акаунт</div>
+    <div class="admin-login__input-block">
+      <label for="admin-login-username">Логін</label>
+      <input id="admin-login-username" type="text" />
+    </div>
+    <div class="admin-login__input-block">
+      <label for="admin-login-password">Пароль</label>
+      <input id="admin-login-password" type="text" />
+    </div>
+    <div class="admin-login__submit-btn" id="admin-login__submit-btn">
+      Авторизуватися
+    </div>
+  </div>
+</div>
+
+      <section class="hero" id="hero">
+  <div class="hero__container">
+    <div class="hero__content">
+      <h2 class="hero__title">Домашня сторінка</h2>
+      <div class="hero-content__block content-block">
+        <div class="content-block__text">
+          <div class="hero-input-block">
+            <label for="hero-title" class="hero-input__title">Заголовок</label>
+            <input
+              type="text"
+              id="hero-title"
+              placeholder="Ведіть заголовок"
+              class="hero-input__input"
+            />
+          </div>
+          <div class="hero-input-block">
+            <label for="hero-descr" class="hero-input__title"
+              >Текст опису</label
+            >
+            <input
+              type="text"
+              id="hero-descr"
+              placeholder="Ведіть опис"
+              class="hero-input__input"
+            />
+          </div>
+
+          <div class="hero-input-block">
+            <label for="hero-services-block" class="hero-input__title"
+              >Назва послуг</label
+            >
+            <div
+              class="hero-input-block__menu hero-menu"
+              id="hero-services-block"
+            >
+              <div class="hero-menu__add">+</div>
+              <div class="hero-menu__content menu-content"></div>
+            </div>
+          </div>
+
+          <div class="hero-input-block">
+            <label for="hero-button" class="hero-input__title"
+              >Текст кнопки</label
+            >
+            <input
+              type="text"
+              id="hero-button"
+              placeholder="Ведіть текст кнопки"
+              class="hero-input__input"
+            />
+          </div>
+        </div>
+        <div class="content-block__slider">
+          <div class="hero-input-block">
+            <label for="hero-slider" class="hero-input__title"
+              >Зображення слайдера</label
+            >
+            <div class="slider-image-block"></div>
+            <label for="hero-slider-button" class="hero-slider-button"
+              >Завантажити фото</label
+            >
+            <input
+              type="file"
+              id="hero-slider-button"
+              placeholder="Ведіть
+            заголовок"
+              class="hero-input__input hero-input-slider"
+              accept="image/*"
+              multiple
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="services" class="services">
+  <div class="services__container">
+    <div class="services__content">
+      <div class="services-header">
+        <h2 class="title services__title">Послуги</h2>
+        <div class="add-services-button">
+          <span>Додати послугу</span><img src="img/add-icon.svg" alt="" />
+        </div>
+      </div>
+      <div class="services__list services-list">
+        <!-- <div class="services-list__item services-item" id="services-item-01">
+          <div class="close-list-item">x</div>
+          <div class="services-item__element services-item__photo-block">
+            <div class="services-item__photo"></div>
+            <label
+              for="services-item-01-inputFile"
+              class="services-item__inputFile-button"
+              >Завантажити фото</label
+            >
+            <input
+              type="file"
+              id="services-item-01-inputFile"
+              class="services-item__inputFile"
+              accept="image/*"
+            />
+          </div>
+          <div class="services-item__element services-item__element-text">
+            <label for="services-item-01-title" class="services-item__title"
+              >Заголовок</label
+            >
+            <input
+              type="text"
+              id="services-item-01-title"
+              placeholder="Ведіть заголовок"
+              class="services-item__input"
+            />
+          </div>
+          <div class="services-item__element services-item__element-text">
+            <label for="services-item-01-descr" class="services-item__descr"
+              >Опис</label
+            >
+            <input
+              type="text"
+              id="services-item-01-descr"
+              placeholder="Ведіть опис"
+              class="services-item__input"
+            />
+          </div>
+        </div> -->
+      </div>
+    </div>
+  </div>
+</section>
+<section id="price" class="price">
+  <div class="price__container">
+    <div class="price__content">
+      <h2 class="title price__title">Прайс</h2>
+      <div class="price-list">
+        <div class="price-list__content">
+          <div class="price-list-categories">
+            <p class="price-list-categories_item">послуга</p>
+            <p class="price-list-categories_item">категорія</p>
+            <p class="price-list-categories_item">ціна</p>
+          </div>
+          <div class="price-list__content-categories">
+            <!-- <div class="price-section-block">
+              <div class="price-list__section price-section">
+                <div class="price-section__header section-header">
+                  <p class="section-header__text">
+                    <input
+                      type="text"
+                      placeholder="Назва секції"
+                      class="section-header__text-input"
+                    />
+                  </p>
+                </div>
+                <div class="price-section__body">
+                  <div class="price-section__item section-item">
+                    <div class="section-item-wrapper">
+                      <p class="section-item__text section-item__option">
+                        <input
+                          type="text"
+                          placeholder="Назва послуги"
+                          class="section-item__option-input"
+                        />
+                      </p>
+                      <p class="section-item__text section-item__price">
+                        <input
+                          type="text"
+                          placeholder="Ціна послуги"
+                          class="section-item__price-input"
+                        />
+                      </p>
+                    </div>
+                    <div class="section-item-close-btn"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="price-section-block__add-item">
+                <span>Додати ціну</span><img src="img/add-icon.svg" alt="" />
+              </div>
+            </div> -->
+          </div>
+          <div class="price-list__add-section">
+            <span>Додати секцію</span>
+            <img src="img/add-icon.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="team" class="team">
+  <div class="team__container">
+    <div class="team__content">
+      <div class="team__content-header">
+        <h2 class="title team__title">Команда</h2>
+        <div class="team-add-member">
+          <span>Додати працівника</span> <img src="img/add-icon.svg" alt="" />
+        </div>
+      </div>
+      <div class="team__block">
+        <div class="team-swiper-02 team-swiper swiper">
+          <div class="team-swiper-wrapper swiper-wrapper">
+            <!-- <div class="team-swiper-slide swiper-slide swiper-slide-01">
+              <div class="remove-team-slide">x</div>
+              <div class="team-swiper-slide__content">
+                <div class="team-swiper-slide__img-block">
+                  <div class="team-swiper-slide__img"></div>
+                  <label for="swiper-slide-01-inputFile"
+                    >Завантажити фото</label
+                  >
+                  <input
+                    type="file"
+                    id="swiper-slide-01-inputFile"
+                    accept="image/*"
+                  />
+                </div>
+                <div class="team-swiper-slide__text-block text-block">
+                  <div class="text-block__position">
+                    <label for="swiper-slide-01-position">Посада</label>
+                    <input
+                      type="text"
+                      id="swiper-slide-01-position"
+                      class="team-swiper-slide__inputFile"
+                    />
+                  </div>
+                  <div class="text-block__name">
+                    <label for="swiper-slide-01-name">Ім'я</label>
+                    <input type="text" id="swiper-slide-01-name" />
+                  </div>
+                  <p class="text-block__experience">
+                    <label for="swiper-slide-01-experience">Досвід</label>
+                    <input type="text" id="swiper-slide-01-experience" />
+                  </p>
+                  <div class="text-block__description">
+                    <label for="swiper-slide-01-description">Опис</label>
+                    <textarea
+                      id="swiper-slide-01-description"
+                      name=""
+                    ></textarea>
+                  </div>
+                  <div class="text-block__personal-services personal-services">
+                    <div class="personal-services-input-block">
+                      <h2 class="personal-services__title">Назва послуг</h2>
+                      <div
+                        class="personal-services-input-block__menu personal-services-menu"
+                        id="personal-service__services-block"
+                      >
+                        <div class="personal-services-menu__add">+</div>
+                        <div
+                          class="personal-services-menu__content menu-content"
+                        >
+                          <div class="menu-content__item content-item">
+                            <input type="text" class="content-item__input" />
+                            <button class="content-item__remove">-</button>
+                          </div>
+                          <div class="menu-content__item content-item">
+                            <input type="text" class="content-item__input" />
+                            <button class="content-item__remove">-</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="text-block__navigation navigation">
+                    <div class="navigation__contacts contacts">
+                      <p class="contacts__text">Контакти</p>
+                      <div class="contacts-input-block">
+                        <div class="contacts-input-block__header">
+                          <div class="add-contacts-button">+</div>
+                        </div>
+                        <div class="contacts-input-block__body contacts-body">
+                          <div class="contacts-body__item item-body">
+                            <div class="close-item-btn">x</div>
+                            <div class="item-body__item item-file">
+                              <span
+                                ><img src="img/telegram.svg" alt=""
+                              /></span>
+                              <label for="swiper-slide-01-contactsImg-1"
+                                >Завантажити фото</label
+                              >
+                              <input
+                                type="file"
+                                id="swiper-slide-01-contactsImg-1"
+                                accept="image/*"
+                              />
+                            </div>
+                            <div class="item-body__item item-link">
+                              <span>Посилання</span>
+                              <input type="text" class="item-link-input" />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div> -->
+          </div>
+          <div class="team-swiper-navigation">
+            <div class="team-swiper-navigation__button swiper-button-prev">
+              <img src="img/arrow-left.svg" alt="" />
+            </div>
+            <div class="team-swiper-navigation__score"></div>
+            <div class="team-swiper-navigation__button swiper-button-next">
+              <img src="img/arrow-right.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- gallery -->
+
+<section id="gallery" class="gallery">
+  <div class="gallery__container">
+    <div class="gallery__content">
+      <h2 class="title gallery__title">Галерея робіт</h2>
+      <div class="gallery-block">
+        <div class="gallery-block__body gallery-body">
+          <!-- <div class="gallery-body__item"><img src="" alt="" /></div>
+          <div class="gallery-body__item"><img src="" alt="" /></div>
+          <div class="gallery-body__item"><img src="" alt="" /></div>
+          <div class="gallery-body__item"><img src="" alt="" /></div>
+          <div class="gallery-body__item"><img src="" alt="" /></div>
+          <div class="gallery-body__item"><img src="" alt="" /></div> -->
+        </div>
+        <div class="gallery-block__input">
+          <label for="gallery-inputFile">Завантажити фото</label>
+          <input type="file" id="gallery-inputFile" accept="image/*" multiple />
+        </div>
+      </div>
+
+      <div class="gallery__button button-gallery">
+        <div class="button-gallery__item button-gallery__item-text">
+          <span>Текст кнопки</span>
+          <input type="text" />
+        </div>
+        <div class="button-gallery__item button-gallery__item-link">
+          <span>Посилання кнопки</span>
+          <input type="text" />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    </div>
+    
+    <script src="js/app.min.js?_v=20230524233404"></script>
+  </body>
+</html>

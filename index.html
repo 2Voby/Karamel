@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html id="mainPage" lang="en">
+  <head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.min.css?_v=20230524233404" />
+  <title>Karamel</title>
+</head>
+
+  <body>
+    <header class="header">
+  <div class="header__container">
+    <div class="header__content">
+      <div class="header__logo">Karamel</div>
+      <div class="header__nav-wrapper">
+        <div class="header__nav header-nav">
+          <div class="header-nav__content header-nav-content">
+            <a href="#hero" class="header-nav-content__item">Про нас</a>
+            <a href="#services" class="header-nav-content__item">Послуги</a>
+            <a href="#price" class="header-nav-content__item">Ціни</a>
+            <a href="#team" class="header-nav-content__item">Команда</a>
+            <a href="#gallery" class="header-nav-content__item">Галерея</a>
+            <a href="#contacts" class="header-nav-content__item">Контакти</a>
+          </div>
+        </div>
+      </div>
+      <div class="header__controls header-controls">
+        <a class="button sign-button button-thin header-controls__sign-button"
+          >Записатись зараз</a
+        >
+        <button
+          func="open"
+          class="burger buttons-header__burger header-controls__burger"
+        >
+          <span class="burger__line"></span>
+          <span class="burger__line"></span>
+          <span class="burger__line"></span>
+        </button>
+      </div>
+    </div>
+  </div>
+</header>
+
+    <div class="wrapper">
+      <main>
+  <section id="hero" class="hero">
+    <div class="hero__container">
+      <div class="hero__content hero-content">
+        <div class="hero-content__text-block hero-text-block">
+          <h1 class="hero-text-block__title"></h1>
+          <p class="text hero-text-block__text"></p>
+          <div class="hero-text-block__services hero-services"></div>
+          <button class="button sign-button hero-text-block__button"></button>
+        </div>
+        <div class="hero-content__slider-block">
+          <div class="hero-swiper-01 hero-swiper swiper">
+            <div class="swiper-wrapper"></div>
+            <div class="hero-swiper__navigation hero-swiper-navigation">
+              <div class="hero-swiper-navigation__button swiper-button-prev">
+                <img src="img/arrow-left.svg" alt="" />
+              </div>
+              <div class="hero-swiper-navigation__button swiper-button-next">
+                <img src="img/arrow-right.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hero-decor">
+          <div class="hero-decor-content">
+            <div class="hero-decor-content__item hero-decor-content__item-1">
+              <img src="img/decor1.png" alt="" />
+            </div>
+            <div class="hero-decor-content__item hero-decor-content__item-2">
+              <img src="img/decor2.png" alt="" />
+            </div>
+            <div class="hero-decor-content__item hero-decor-content__item-3">
+              <img src="img/decor1.png" alt="" />
+            </div>
+            <div class="hero-decor-content__item hero-decor-content__item-4">
+              <img src="img/decor2.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="services" class="services">
+    <div class="services__container">
+      <div class="services__content">
+        <h2 class="title services__title">Послуги</h2>
+        <div class="services__list services-list"></div>
+        <div class="services-decor">
+          <div class="services-decor-content">
+            <div
+              class="services-decor-content__item services-decor-content__item-1"
+            >
+              <img src="img/services-decor-1.png" alt="" />
+            </div>
+            <div
+              class="services-decor-content__item services-decor-content__item-2"
+            >
+              <img src="img/services-decor-2.png" alt="" />
+            </div>
+            <div
+              class="services-decor-content__item services-decor-content__item-3"
+            >
+              <img src="img/services-decor-3.png" alt="" />
+            </div>
+            <div
+              class="services-decor-content__item services-decor-content__item-4"
+            >
+              <img src="img/services-decor-4.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="price" class="price">
+    <div class="price__container">
+      <div class="price__content">
+        <h2 class="title price__title">Прайс</h2>
+        <div class="price-list">
+          <div class="price-list__content">
+            <div class="price-list-categories">
+              <p class="price-list-categories_item">послуга</p>
+              <p class="price-list-categories_item">категорія</p>
+              <p class="price-list-categories_item">ціна</p>
+            </div>
+          </div>
+        </div>
+        <div class="price-decor">
+          <div class="price-decor-content">
+            <div class="price-decor-content__item price-decor-content__item-1">
+              <img src="img/price-decor-1.png" alt="" />
+            </div>
+            <div class="price-decor-content__item price-decor-content__item-2">
+              <img src="img/price-decor-2.png" alt="" />
+            </div>
+            <div class="price-decor-content__item price-decor-content__item-3">
+              <img src="img/price-decor-3.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="team" class="team">
+    <div class="team__container">
+      <div class="team__content">
+        <h2 class="title team__title">Команда</h2>
+        <div class="team__block">
+          <div class="team-swiper-hit">
+            <p>гортай вбік</p>
+            <img src="img/hit-arrow.svg" alt="" />
+          </div>
+          <div class="team-swiper-02 team-swiper swiper">
+            <div class="team-swiper-wrapper swiper-wrapper">
+              <!-- <div class="team-swiper-slide swiper-slide">
+                <div class="team-swiper-slide__content">
+                  <div class="team-swiper-slide__img-block">
+                    <img src="img/person-picture-01.svg" alt="" />
+                  </div>
+                  <div class="team-swiper-slide__text-block text-block">
+                    <div class="text-block__position">
+                      менеджер, топ-майстер
+                    </div>
+                    <h3 class="text-block__name">
+                      Герасимчук Оксана Василівна
+                    </h3>
+                    <p class="text-block__experience">Досвід 8 років</p>
+                    <div class="text-block__description">
+                      <p>
+                        Закінчила більше 30 курсів та підвищень кваліфікації.
+                        Автор курсів з навчання манікюру. Засновник студії
+                        Karamel
+                      </p>
+                    </div>
+                    <div
+                      class="text-block__personal-services personal-services"
+                    >
+                      <h4 class="personal-services__title">Послуги</h4>
+                      <ul class="personal-services__list">
+                        <li class="personal-services__item">
+                          <div class="item-sircle"></div>
+                          <p class="item-text">Манікюр</p>
+                        </li>
+                        <li class="personal-services__item">
+                          <div class="item-sircle"></div>
+                          <p class="item-text">Педикюр</p>
+                        </li>
+                        <li class="personal-services__item">
+                          <div class="item-sircle"></div>
+                          <p class="item-text">Татуаж</p>
+                        </li>
+                        <li class="personal-services__item">
+                          <div class="item-sircle"></div>
+                          <p class="item-text">Фарбування хною</p>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="text-block__navigation navigation">
+                      <button class="button sign-button navigation__button">
+                        Записатись зараз
+                      </button>
+                      <div class="navigation__contacts contacts">
+                        <p class="contacts__text">контакти:</p>
+                        <div class="contacts__block contacts-block">
+                          <a href="#" class="contacts-block__item">
+                            <img src="img/phone.svg" alt="" />
+                          </a>
+                          <a href="#" class="contacts-block__item">
+                            <img src="img/facebook.svg" alt="" />
+                          </a>
+                          <a href="#" class="contacts-block__item">
+                            <img src="img/telegram.svg" alt="" />
+                          </a>
+                          <a href="#" class="contacts-block__item">
+                            <img src="img/instagram.svg" alt="" />
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="team-swiper-slide swiper-slide">
+                <div class="team-swiper-slide__content">
+                  <div class="team-swiper-slide__img-block">
+                    <img src="img/swiper-slide-1.png" alt="" />
+                  </div>
+                  <div class="team-swiper-slide__text-block text-block">
+                    <div class="text-block__position">
+                      менеджер, топ-майстер
+                    </div>
+                    <h3 class="text-block__name">Анна</h3>
+                    <p class="text-block__experience">Досвід 8 років</p>
+                    <div class="text-block__description">
+                      <p>
+                        Закінчила більше 30 курсів та підвищень кваліфікації.
+                        Автор курсів з навчання манікюру. Засновник студії
+                        Karamel
+                      </p>
+                    </div>
+                    <div
+                      class="text-block__personal-services personal-services"
+                    >
+                      <h4 class="personal-services__title">Послуги</h4>
+                      <ul class="personal-services__list">
+                        <li class="personal-services__item">
+                          <div class="item-sircle"></div>
+                          <p class="item-text">Манікюр</p>
+                        </li>
+                        <li class="personal-services__item">
+                          <div class="item-sircle"></div>
+                          <p class="item-text">Педикюр</p>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="text-block__navigation navigation">
+                      <button class="button sign-button navigation__button">
+                        Записатись зараз
+                      </button>
+                      <div class="navigation__contacts contacts">
+                        <p class="contacts__text">контакти:</p>
+                        <div class="contacts__block contacts-block">
+                          <a href="#" class="contacts-block__item">
+                            <img src="img/phone.svg" alt="" />
+                          </a>
+                          <a href="#" class="contacts-block__item">
+                            <img src="img/facebook.svg" alt="" />
+                          </a>
+                          <a href="#" class="contacts-block__item">
+                            <img src="img/telegram.svg" alt="" />
+                          </a>
+                          <a href="#" class="contacts-block__item">
+                            <img src="img/instagram.svg" alt="" />
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
+            </div>
+            <div class="team-swiper-navigation">
+              <div class="team-swiper-navigation__button swiper-button-prev">
+                <img src="img/arrow-left.svg" alt="" />
+              </div>
+              <div class="team-swiper-navigation__score"></div>
+              <div class="team-swiper-navigation__button swiper-button-next">
+                <img src="img/arrow-right.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="gallery" class="gallery">
+    <div class="gallery__container">
+      <div class="gallery__content">
+        <h2 class="title gallery__title">Галерея робіт</h2>
+        <div class="gallery-swiper-03 gallery-swiper swiper">
+          <div class="gallery-swiper-wrapper swiper-wrapper">
+            <!-- <div class="gallery-swiper__slide swiper-slide">
+              <img src="img/works-img-01.png" alt="" />
+            </div> -->
+          </div>
+          <div class="gallery-swiper__navigation gallery-swiper-navigation">
+            <div class="gallery-swiper-navigation__button swiper-button-prev">
+              <img src="img/arrow-left.svg" alt="" />
+            </div>
+            <div class="gallery-swiper-navigation__score"></div>
+            <div class="gallery-swiper-navigation__button swiper-button-next">
+              <img src="img/arrow-right.svg" alt="" />
+            </div>
+          </div>
+        </div>
+        <a target="_blank" class="button gallery__button"></a>
+        <div class="gallery-decor">
+          <div class="gallery-decor-content">
+            <div
+              class="gallery-decor-content__item gallery-decor-content__item-1"
+            >
+              <img src="img/works-decor-01.svg" alt="" />
+            </div>
+            <div
+              class="gallery-decor-content__item gallery-decor-content__item-2"
+            >
+              <img src="img/works-decor-01.svg" alt="" />
+            </div>
+            <div
+              class="gallery-decor-content__item gallery-decor-content__item-3"
+            >
+              <img src="img/works-decor-02.svg" alt="" />
+            </div>
+            <div
+              class="gallery-decor-content__item gallery-decor-content__item-4"
+            >
+              <img src="img/works-decor-03.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+ <div class="message-form form-closed" id="message-form">
+  <div class="message-form__content">
+    <div class="message-form__header">
+      <div class="message-form__close-button">
+        <img class="close-button" src="img/close-button.svg" alt="" />
+      </div>
+    </div>
+    <h3 class="message-form__title">Заявка</h3>
+    <p class="message-form__text">
+      Залиште свої дані і адміністратор обов’язково вам зателефонує
+    </p>
+    <div class="message-form__form form">
+      <form action="#" id="form" class="form__body">
+        <div class="form__item">
+          <label for="gropDownProcedure" class="form__label"
+            >Оберіть процедуру*:</label
+          >
+          <div
+            id="gropDownProcedure"
+            class="dropdown dropdownProcedure dropdown-case _required"
+          >
+            <div class="dropdown__button">
+              <p class="dropdown__button-text dropdown-case__button-text"></p>
+              <img
+                class="dropdown__button-img"
+                src="img/dropdown-arrow.svg"
+                alt=""
+              />
+            </div>
+            <ul class="dropdown__list dropdown-list__options"></ul>
+          </div>
+        </div>
+        <div class="form__item">
+          <label for="gropDownMaster" class="form__label"
+            >Оберіть майстра*:</label
+          >
+          <div
+            id="gropDownMaster"
+            class="dropdown dropdownMaster dropdown-case _required"
+          >
+            <div class="dropdown__button">
+              <p class="dropdown__button-text dropdown-case__button-text"></p>
+              <img
+                class="dropdown__button-img"
+                src="img/dropdown-arrow.svg"
+                alt=""
+              />
+            </div>
+            <ul class="dropdown__list dropdown-list__options"></ul>
+          </div>
+        </div>
+        <div class="form__item">
+          <label for="formName" class="form__label">Імя*:</label>
+          <input
+            id="formName"
+            type="text"
+            name="name"
+            class="form__input _required"
+          />
+        </div>
+        <div class="form__item">
+          <label for="formPhone" class="form__label">Телефон*:</label>
+          <input
+            id="formPhone"
+            type="tel"
+            name="phone"
+            class="form__input _required"
+          />
+        </div>
+
+        <div class="form__item">
+          <label for="formMessage" class="form__label"
+            >Коментар до заявки:</label
+          >
+          <textarea
+            name="message"
+            id="formMessage"
+            class="form__input form-input-coment"
+          ></textarea>
+        </div>
+        <button type="submit" class="form__button">Підтвердити</button>
+      </form>
+    </div>
+    <div class="message-form-loading d-none">Завантаження...</div>
+  </div>
+</div>
+
+      <!-- <div class="popup-gallery">
+  <div class="popup-gallery__wrapper">
+    <div class="popup-gallery__content content-popup-gallery">
+      <div class="popup-gallery__img">
+        <div class="popup-gallery__close-btn">
+          <img src="img/close-button.svg" alt="" />
+        </div>
+        <img src="img/works-img-02.png" alt="" />
+      </div>
+    </div>
+  </div>
+</div> -->
+
+    </div>
+    <footer id="contacts" class="footer">
+  <div class="footer__container">
+    <div class="footer__content">
+      <div class="footer__block-item footer__contacts footer-contacts">
+        <h4 class="footer-contacts__title">Контакти</h4>
+        <p class="footer-contacts__text">Вулиця вітрука 9В, 4поверх, 403</p>
+        <p class="footer-contacts__text">
+          <a href="tel: 0933750202">Тел: 093 375 02 02</a>
+        </p>
+        <p class="footer-contacts__text">
+          <a href="mailto: gerasimcuk.oksana@gmail.com"
+            >gerasimcuk.oksana@gmail.com</a
+          >
+        </p>
+      </div>
+      <div class="footer__block-item footer__about footer-about">
+        <div class="footer-about__logo">Karamel</div>
+        <p class="footer-about__text">Ваш кращий шлях до бездоганності!</p>
+        <div class="footer-about__contacts about-contacts">
+          <a target="_blank" href="" class="about-contacts__button"
+            ><img src="img/facebook.svg" alt=""
+          /></a>
+          <a target="_blank" href="" class="about-contacts__button"
+            ><img src="img/telegram.svg" alt=""
+          /></a>
+          <a
+            target="_blank"
+            href="https://www.instagram.com/karamel_klub/"
+            class="about-contacts__button"
+            ><img src="img/instagram.svg" alt=""
+          /></a>
+        </div>
+        <p class="about-contacts__copirightin">
+          2023 Karamel. All Rights reserved.
+        </p>
+      </div>
+      <div class="footer__block-item footer__navigation footer-navigation">
+        <h4 class="footer-navigation__title">Навігація</h4>
+        <div class="footer-navigation-block">
+          <a href="#hero" class="footer-navigation__item">Про нас</a>
+          <a href="#services" class="footer-navigation__item">Послуги</a>
+          <a href="#price" class="footer-navigation__item">Ціни</a>
+          <a href="#team" class="footer-navigation__item">Команда</a>
+          <a href="#gallery" class="footer-navigation__item">Галерея</a>
+          <a href="#contacts" class="footer-navigation__item">Контакти</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="footer__container">
+      <div class="footer-bottom__content">
+        <div class="footer-bottom__text">
+          made by <a target="_blank" href="https://github.com/2Voby">2Voby</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    <script src="js/app.min.js?_v=20230524233404"></script>
+  </body>
+</html>
