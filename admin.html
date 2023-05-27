@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="css/style.min.css?_v=20230524233404" />
+  <link rel="stylesheet" href="css/style.min.css?_v=20230527204847" />
   <title>adimn page</title>
 </head>
 
@@ -24,6 +24,16 @@
 </header>
 
     <div class="wrapper admin-wrapper">
+      <div id="message-popup" class="messages-popup"></div>
+
+      <div class="preloader-wrapper d-none" id="page-preloader">
+  <div class="loadingio-spinner-rolling-mg8kfkm0mgp">
+    <div class="ldio-8spb5mqdaao">
+      <div></div>
+    </div>
+  </div>
+</div>
+
       <div class="admin-login" id="admin-login-form">
   <div class="admin-login-content">
     <div class="admin-login__title">Увійдіть в акаунт</div>
@@ -34,6 +44,10 @@
     <div class="admin-login__input-block">
       <label for="admin-login-password">Пароль</label>
       <input id="admin-login-password" type="text" />
+    </div>
+    <div class="admin-login__checkbox-save">
+      <label for="admin-login-save">Запамятати мене</label>
+      <input type="checkbox" name="" id="admin-login-save" />
     </div>
     <div class="admin-login__submit-btn" id="admin-login__submit-btn">
       Авторизуватися
@@ -94,7 +108,7 @@
           </div>
         </div>
         <div class="content-block__slider">
-          <div class="hero-input-block">
+          <div class="hero-input-block hero-input-block-swiper">
             <label for="hero-slider" class="hero-input__title"
               >Зображення слайдера</label
             >
@@ -391,6 +405,6 @@
 
     </div>
     
-    <script src="js/app.min.js?_v=20230524233404"></script>
+    <script src="js/app.min.js?_v=20230527204847"></script>
   </body>
 </html>

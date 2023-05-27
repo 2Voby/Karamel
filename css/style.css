@@ -354,6 +354,8 @@ html {
 
 input {
   outline: none;
+  font-size: 1rem;
+  line-height: 112.5%;
 }
 
 .burger {
@@ -386,6 +388,101 @@ input {
 
 .burger__line:nth-child(3) {
   top: 69.75%;
+}
+
+@-webkit-keyframes ldio-8spb5mqdaao {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+@keyframes ldio-8spb5mqdaao {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+.preloader-wrapper {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.4588235294);
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ldio-8spb5mqdaao div {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  border: 10px solid #ff6060;
+  border-top-color: transparent;
+  border-radius: 50%;
+}
+
+.ldio-8spb5mqdaao div {
+  -webkit-animation: ldio-8spb5mqdaao 1s linear infinite;
+          animation: ldio-8spb5mqdaao 1s linear infinite;
+  top: 100px;
+  left: 100px;
+}
+
+.loadingio-spinner-rolling-mg8kfkm0mgp {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  overflow: hidden;
+  background: none;
+}
+
+.ldio-8spb5mqdaao {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform: translateZ(0) scale(1);
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  transform-origin: 0 0;
+}
+
+.ldio-8spb5mqdaao div {
+  box-sizing: content-box;
+}
+
+.messages-popup {
+  z-index: 100;
+  position: fixed;
+  top: -100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 10px;
+  min-width: 150px;
+  max-width: 400px;
+  overflow: hidden;
+  border: 1px solid #ff0000;
+  transition: all 0.5s ease;
+}
+
+.messages-popup__content {
+  background-color: #ffffff;
+  color: #010101;
+  padding: 10px 20px;
+}
+
+.messages-popup.active {
+  top: 25px;
 }
 
 ._header-scroll {
@@ -1283,6 +1380,7 @@ input {
   padding: 10px 10px;
   background-color: #ffffff;
   border-radius: 10px;
+  min-height: 120px;
 }
 
 #mainPage .team__block .team-swiper .team-swiper-wrapper .team-swiper-slide .text-block .personal-services {
@@ -1746,12 +1844,138 @@ input {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(255, 255, 255, 0.5);
   border-radius: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
   color: #fff;
+}
+
+@-webkit-keyframes ldio-f2q05tcxh5 {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes ldio-f2q05tcxh5 {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+.message-form .message-form-loading .ldio-f2q05tcxh5 div {
+  left: 47px;
+  top: 24px;
+  position: absolute;
+  -webkit-animation: ldio-f2q05tcxh5 linear 1s infinite;
+          animation: ldio-f2q05tcxh5 linear 1s infinite;
+  background: #ff0234;
+  width: 6px;
+  height: 12px;
+  border-radius: 3px/6px;
+  transform-origin: 3px 26px;
+}
+
+.message-form .message-form-loading .ldio-f2q05tcxh5 div:nth-child(1) {
+  transform: rotate(0deg);
+  -webkit-animation-delay: -0.9166666667s;
+          animation-delay: -0.9166666667s;
+}
+
+.message-form .message-form-loading .ldio-f2q05tcxh5 div:nth-child(2) {
+  transform: rotate(30deg);
+  -webkit-animation-delay: -0.8333333333s;
+          animation-delay: -0.8333333333s;
+}
+
+.message-form .message-form-loading .ldio-f2q05tcxh5 div:nth-child(3) {
+  transform: rotate(60deg);
+  -webkit-animation-delay: -0.75s;
+          animation-delay: -0.75s;
+}
+
+.message-form .message-form-loading .ldio-f2q05tcxh5 div:nth-child(4) {
+  transform: rotate(90deg);
+  -webkit-animation-delay: -0.6666666667s;
+          animation-delay: -0.6666666667s;
+}
+
+.message-form .message-form-loading .ldio-f2q05tcxh5 div:nth-child(5) {
+  transform: rotate(120deg);
+  -webkit-animation-delay: -0.5833333333s;
+          animation-delay: -0.5833333333s;
+}
+
+.message-form .message-form-loading .ldio-f2q05tcxh5 div:nth-child(6) {
+  transform: rotate(150deg);
+  -webkit-animation-delay: -0.5s;
+          animation-delay: -0.5s;
+}
+
+.message-form .message-form-loading .ldio-f2q05tcxh5 div:nth-child(7) {
+  transform: rotate(180deg);
+  -webkit-animation-delay: -0.4166666667s;
+          animation-delay: -0.4166666667s;
+}
+
+.message-form .message-form-loading .ldio-f2q05tcxh5 div:nth-child(8) {
+  transform: rotate(210deg);
+  -webkit-animation-delay: -0.3333333333s;
+          animation-delay: -0.3333333333s;
+}
+
+.message-form .message-form-loading .ldio-f2q05tcxh5 div:nth-child(9) {
+  transform: rotate(240deg);
+  -webkit-animation-delay: -0.25s;
+          animation-delay: -0.25s;
+}
+
+.message-form .message-form-loading .ldio-f2q05tcxh5 div:nth-child(10) {
+  transform: rotate(270deg);
+  -webkit-animation-delay: -0.1666666667s;
+          animation-delay: -0.1666666667s;
+}
+
+.message-form .message-form-loading .ldio-f2q05tcxh5 div:nth-child(11) {
+  transform: rotate(300deg);
+  -webkit-animation-delay: -0.0833333333s;
+          animation-delay: -0.0833333333s;
+}
+
+.message-form .message-form-loading .ldio-f2q05tcxh5 div:nth-child(12) {
+  transform: rotate(330deg);
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+}
+
+.message-form .message-form-loading .loadingio-spinner-spinner-jd5vupipkpa {
+  width: 85px;
+  height: 85px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.message-form .message-form-loading .ldio-f2q05tcxh5 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform: translateZ(0) scale(0.85);
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  transform-origin: 0 0;
+}
+
+.message-form .message-form-loading .ldio-f2q05tcxh5 div {
+  box-sizing: content-box;
 }
 
 .message-form__header {
@@ -1931,8 +2155,42 @@ input {
   line-height: 112.5%;
 }
 
+#adminPage .admin-login__checkbox-save {
+  display: flex;
+  row-gap: 10px;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+  margin-top: 0.625rem;
+}
+
+#adminPage .admin-login__checkbox-save input {
+  position: relative;
+}
+
+#adminPage .admin-login__checkbox-save input:checked::before {
+  background-color: #fa7474;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 3px;
+}
+
+#adminPage .admin-login__checkbox-save input:checked::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  height: 50%;
+  background-color: #fff;
+}
+
 #adminPage .admin-login__submit-btn {
-  margin-top: 1.875rem;
+  margin-top: 1.25rem;
   padding: 10px 10px;
   background-color: #ff1100;
   cursor: pointer;
@@ -1975,17 +2233,27 @@ input {
   background-color: #d9d9d9;
   padding: 10px 10px;
   display: grid;
-  grid-template-columns: repeat(4, 64px);
+  grid-template-columns: repeat(4, 80px);
   justify-content: center;
   gap: 7px;
 }
 
 .admin-wrapper .hero .content-block__slider .slider-image-block__item {
-  max-width: 64px;
-  height: 64px;
-  max-height: 64px;
+  max-width: 80px;
+  height: 80px;
+  max-height: 80px;
   background-color: #fff;
   position: relative;
+}
+
+.admin-wrapper .hero .content-block__slider .slider-image-block__item img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .admin-wrapper .hero .content-block__slider .slider-image-block__item .slider-img-remove {
@@ -2087,6 +2355,10 @@ input {
   flex: 0 0 20px;
   height: 20px;
   background-color: #ff1100;
+}
+
+.admin-wrapper .hero .hero-input-block-swiper {
+  max-width: 400px;
 }
 
 .admin-wrapper .services {
@@ -2378,8 +2650,8 @@ input {
 }
 
 .admin-wrapper .price__content .price-list .price-section-block__add-item span {
-  font-size: 14px;
-  line-height: 16px;
+  font-size: 16px;
+  line-height: 88.8888888889%;
   color: #000000;
   margin-right: 0.625rem;
 }
@@ -2403,8 +2675,8 @@ input {
 }
 
 .admin-wrapper .price__content .price-list__add-section span {
-  font-size: 14px;
-  line-height: 16px;
+  font-size: 16px;
+  line-height: 88.8888888889%;
   color: #000000;
   margin-right: 0.625rem;
 }
@@ -2466,8 +2738,8 @@ input {
 .admin-wrapper .team__block .team-swiper-hit p {
   margin-right: 0.1875rem;
   font-weight: 400;
-  font-size: 12px;
-  line-height: 14px;
+  font-size: 14px;
+  line-height: 16px;
 }
 
 .admin-wrapper .team__block .team-swiper-hit img {
@@ -2574,7 +2846,7 @@ input {
 
 .admin-wrapper .team__block .team-swiper .team-swiper-wrapper .team-swiper-slide .text-block__position input {
   padding: 5px 10px;
-  font-size: 14px;
+  font-size: 16px;
   outline: none;
 }
 
@@ -2595,7 +2867,7 @@ input {
 }
 
 .admin-wrapper .team__block .team-swiper .team-swiper-wrapper .team-swiper-slide .text-block__name input {
-  font-size: 1rem;
+  font-size: 1.125rem;
   padding: 10px 5px;
 }
 
@@ -2621,8 +2893,6 @@ input {
 }
 
 .admin-wrapper .team__block .team-swiper .team-swiper-wrapper .team-swiper-slide .text-block__description {
-  font-size: 1rem;
-  line-height: 112.5%;
   flex: 1 1 auto;
   max-height: none;
   margin-bottom: 1.25rem;
@@ -2644,6 +2914,8 @@ input {
   min-height: 150px;
   outline: none;
   padding: 5px 10px;
+  font-size: 1rem;
+  line-height: 112.5%;
 }
 
 .admin-wrapper .team__block .team-swiper .team-swiper-wrapper .team-swiper-slide .text-block .personal-services__title {
@@ -2809,7 +3081,7 @@ input {
 
 .admin-wrapper .team__block .team-swiper .team-swiper-wrapper .team-swiper-slide .text-block .navigation .contacts .contacts-input-block .contacts-body .item-body .item-link input {
   padding: 3px 5px;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .admin-wrapper .team__block .team-swiper .team-swiper-navigation {
@@ -2975,7 +3247,7 @@ input {
 
 .admin-wrapper .gallery .button-gallery__item input {
   padding: 5px 10px;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 @media (min-width: 61.99875em) {
@@ -3080,6 +3352,10 @@ input {
 
   .admin-header .admin-header-controls__save-button {
     padding: 0.3125rem 0.625rem;
+  }
+
+  .admin-wrapper .hero .content-block__slider .slider-image-block {
+    grid-template-columns: repeat(3, 80px);
   }
 }
 
@@ -3212,6 +3488,7 @@ input {
 @media (max-width: 48rem) {
   .admin-wrapper .hero .content-block {
     flex-direction: column;
+    row-gap: 40px;
   }
 }
 

@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="css/style.min.css?_v=20230524233404" />
+  <link rel="stylesheet" href="css/style.min.css?_v=20230527204847" />
   <title>Karamel</title>
 </head>
 
@@ -43,7 +43,16 @@
 </header>
 
     <div class="wrapper">
-      <main>
+      <div id="message-popup" class="messages-popup"></div>
+
+      <div class="preloader-wrapper d-none" id="page-preloader">
+  <div class="loadingio-spinner-rolling-mg8kfkm0mgp">
+    <div class="ldio-8spb5mqdaao">
+      <div></div>
+    </div>
+  </div>
+</div>
+ <main>
   <section id="hero" class="hero">
     <div class="hero__container">
       <div class="hero__content hero-content">
@@ -347,7 +356,8 @@
     </div>
   </section>
 </main>
- <div class="message-form form-closed" id="message-form">
+
+      <div class="message-form form-closed" id="message-form">
   <div class="message-form__content">
     <div class="message-form__header">
       <div class="message-form__close-button">
@@ -430,11 +440,27 @@
         <button type="submit" class="form__button">Підтвердити</button>
       </form>
     </div>
-    <div class="message-form-loading d-none">Завантаження...</div>
+    <div class="message-form-loading d-none">
+      <div class="loadingio-spinner-spinner-jd5vupipkpa">
+        <div class="ldio-f2q05tcxh5">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
-
-      <!-- <div class="popup-gallery">
+ <!-- <div class="popup-gallery">
   <div class="popup-gallery__wrapper">
     <div class="popup-gallery__content content-popup-gallery">
       <div class="popup-gallery__img">
@@ -508,6 +534,6 @@
   </div>
 </footer>
 
-    <script src="js/app.min.js?_v=20230524233404"></script>
+    <script src="js/app.min.js?_v=20230527204847"></script>
   </body>
 </html>
